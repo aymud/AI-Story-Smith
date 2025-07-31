@@ -1,8 +1,11 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
+from database.database import create_tables
 from routers import story, job
 from core.config import settings
+
+create_tables()
 
 app = FastAPI(
     title="Choose Your Own Adventure Game API",
