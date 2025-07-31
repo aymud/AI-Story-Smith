@@ -71,7 +71,7 @@ def generate_story_task(job_id: str, theme: str, session_id: str):
 
             story = StoryGenerator.generate_story(db, session_id, theme)
 
-            job.story_id = story.ids
+            job.story_id = story.id
             job.status = "completed"
             job.completed_at = datetime.now()
             db.commit()
