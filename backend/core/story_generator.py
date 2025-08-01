@@ -17,11 +17,11 @@ class StoryGenerator:
     @classmethod
     def _get_llm(cls):
         model = "gpt-4o-mini"
-        # openai_api_key = os.getenv("OPENAI_API_KEY")
-        # service_url = os.getenv("CHOREO_OPENAI_CONNECTION_SERVICEURL")
-        #
-        # if openai_api_key and service_url:
-        #     return ChatOpenAI(model=model, api_key=openai_api_key, base_url=service_url)s
+        openai_api_key = os.getenv("CHOREO_OPENAI_CONNECTION_OPENAI_API_KEY")
+        service_url = os.getenv("CHOREO_OPENAI_CONNECTION_SERVICEURL")
+
+        if openai_api_key and service_url:
+            return ChatOpenAI(model=model, api_key=openai_api_key, base_url=service_url)s
 
         return ChatOpenAI(model=model)
 
