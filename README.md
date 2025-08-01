@@ -81,6 +81,8 @@ follow these steps to run the application locally.
 1. **Clone the repository**: Start by cloning the repository to your local machine.
 2. **Navigate to the frontend/backend directory**: Go to each folder within the project's root directory.
 3. **Install dependencies**
+   - `uv sync` for the backend
+   - `npm install` for the frontend
 4. **Set up environment variables**:
    - Create a .env file in the backend and frontend directory.
    - Add your OpenAI API key
