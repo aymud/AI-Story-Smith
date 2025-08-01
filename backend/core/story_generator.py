@@ -21,7 +21,7 @@ class StoryGenerator:
         # service_url = os.getenv("CHOREO_OPENAI_CONNECTION_SERVICEURL")
         #
         # if openai_api_key and service_url:
-        #     return ChatOpenAI(model=model, api_key=openai_api_key, base_url=service_url)
+        #     return ChatOpenAI(model=model, api_key=openai_api_key, base_url=service_url) 
 
         return ChatOpenAI(model=model)
 
