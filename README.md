@@ -4,7 +4,7 @@
     <h2>A Choose-Your-Own-Adventure Game Powered by AI</h2>
     
 <p align="center">
-  <video src="https://github.com/user-attachments/assets/c093aef3-a41d-43bf-af85-9e8493e6a3b4"></video>
+  <video src="https://github.com/user-attachments/assets/6a83c8b7-27a6-4f3b-aac8-7a76dee3eb15"></video
 </p>
 </div>
 
@@ -154,3 +154,5 @@ follow these steps to run the application locally.
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/68e320eb-88f0-4480-adb6-c90b1f9d3ca5" />
 </p>
 <p align="center"><em>Database Relational Model Diagram</em></p>
+
+
